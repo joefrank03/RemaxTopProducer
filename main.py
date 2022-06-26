@@ -8,7 +8,7 @@ import pandas as pd
 df = pd.read_csv('/Users/ferna/PycharmProjects/RemaxTopProducer/TopProducerDB.csv')
 print(df);
 
-## Loading iris dataset
+## printing table
 print(df.to_string())
 
 
