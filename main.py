@@ -1,3 +1,9 @@
 import pandas as pd
-print('hello')
-print('hello joe')
+import numpy as np
+
+
+## Load CVS File
+df = pd.read_csv('/Users/ferna/PycharmProjects/RemaxTopProducer/TopProducerDB.csv')
+print(df)
+
+
